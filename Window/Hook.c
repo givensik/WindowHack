@@ -2,7 +2,7 @@
 
 LRESULT FAR PASCAL WndProc (HWND, UINT, UINT, LONG);
 
-int APIENTRY WinMain (HANDLE hInstance, HANDLE hPrevInstance, LPSTR lpszCmdLine, int nCmdShow){
+int PASCAL WinMain (HANDLE hInstance, HANDLE hPrevInstance, LPSTR lpszCmdLine, int nCmdShow){
     static char szAppName[] = "Hello Win";
     MSG msg;
     HWND hwnd;
