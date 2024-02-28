@@ -1,0 +1,3 @@
+; C:\MinGW\bin\dlltool.exe --output-def GetMsgProc.def --kill-at --dllname MStrack.dll GetMsgProc.o
+EXPORTS
+	GetMsgProc@12 @ 1
